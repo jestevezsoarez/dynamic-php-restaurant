@@ -22,12 +22,14 @@
 
 					<em>Sunday - Monday</em><br>
 					Closed<br><br>
+
+					<?php include('store-hours.php'); ?>
 					
 				</div><!-- End column -->
 
 			</div><!-- End footer -->
 
-			<small>&copy;2014 Brad Hussey</small>
+			<small>&copy;<?php echo date('Y'); ?> <?php echo $companyName; ?></small>
 
 		</div><!-- End content -->
 
